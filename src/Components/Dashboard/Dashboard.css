@@ -1,0 +1,45 @@
+.Dashboard {
+    height: 100%;
+    widht: 100%;
+}
+
+.top-nav-bar {
+    height: 60px;
+    width: 80%;
+    background: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    border: 1px black solid;
+    align-items: center;
+}
+
+.checkmark-box {
+    width: 20px;
+    height: 20px;
+}
+
+.search-input {
+    width: 350px;
+}
+
+.posts-container {
+    background: white;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 80%;
+    border: 1px solid black;
+}
+
+.two-checkbox {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.search-three {
+    margin-left: 50px;
+}

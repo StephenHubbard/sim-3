@@ -1,0 +1,32 @@
+.Auth {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    justify-content: space-evenly;
+    background: #FCC173;
+    border-radius: 7px;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.auth-container {
+    height: 290px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.two-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

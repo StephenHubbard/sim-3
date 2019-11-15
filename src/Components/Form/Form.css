@@ -1,0 +1,25 @@
+.Form {
+    width: 80%;
+    height: 650px;
+    margin: 30px;
+    margin-left: 200px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-holder img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    resize: none;
+    margin-bottom: 10px;
+}
