@@ -36,6 +36,10 @@ export default class Dashboard extends Component {
         })
     }
 
+    search = () => {
+        alert("you thought this was working?! HAHAHAAHAH. No.")
+    }
+
 
     render() {
         let key = 1
@@ -50,7 +54,9 @@ export default class Dashboard extends Component {
                             onChange={e => this.handleChange('search', e.target.value)}
                             value={this.state.search}
                         />
-                        <button>Search</button>
+                        <button onClick={this.search}>
+                            <i className="fas fa-search"></i>
+                        </button>
                         <button onClick={this.resetSearchInput}>Reset</button>
                     </div>
                     <div className="two-checkbox">

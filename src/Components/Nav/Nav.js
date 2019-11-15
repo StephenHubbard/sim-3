@@ -19,7 +19,6 @@ const Nav = props => {
     }
 
 
-    // console.log(props)
     return (
         <header className="nav">
             <div className="profile">

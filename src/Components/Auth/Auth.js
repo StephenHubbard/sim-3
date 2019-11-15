@@ -46,7 +46,7 @@ class Auth extends Component {
         return (
             <div className="Auth">
                 <div className="auth-container">
-                    <h1>=D</h1>
+                    <i class="fas fa-smile-wink fa-3x"></i>
                     <h1>Helo</h1>
                     <div className="two-input">
                         <input 
